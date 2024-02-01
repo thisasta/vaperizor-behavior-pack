@@ -1,0 +1,67 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"PI LK 12"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.10"
+			],
+			"dash": [
+				"github:bridge-core/dash-compiler#8fa35c73292f6382747d0f411fca26431a6d2c8e"
+			]
+		}
+	},
+	"header": {
+		"name": "Vaperizor",
+		"description": "Adds a vaperizor to your Minecraft World.",
+		"min_engine_version": [
+			1,
+			20,
+			50
+		],
+		"uuid": "502a0ca6-d11e-460b-bd95-5a430b727ed2",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "8ef18f43-205f-4c4e-8f51-972f43bc4452",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "481451f3-2641-4aca-8d77-4529ccbf1b63",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "b9094a81-2036-4864-9dff-584a86971c3e",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.8.0-beta"
+		}
+	]
+}

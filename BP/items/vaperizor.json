@@ -1,0 +1,18 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "bridge:vaperizor",
+			"category": "equipment",
+			"menu_category": {
+				"category": "equipment",
+				"is_hidden_in_commands": false
+			},
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:icon": "bridge_vaperizor",
+			"minecraft:use_animation": "camera"
+		}
+	}
+}

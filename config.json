@@ -1,0 +1,45 @@
+{
+	"type": "minecraftBedrock",
+	"name": "Vaperizor",
+	"namespace": "bridge",
+	"authors": [
+		"PI LK 12"
+	],
+	"targetVersion": "1.20.50",
+	"description": "Adds a vaperizor to your Minecraft World.",
+	"experimentalGameplay": {
+		"holidayCreatorFeatures": true,
+		"creationOfCustomBiomes": true,
+		"upcomingCreatorFeatures": true,
+		"enableGameTestFramework": true,
+		"experimentalMolangFeatures": true,
+		"educationEdition": true
+	},
+	"bdsProject": false,
+	"packs": {
+		"behaviorPack": "./BP",
+		"resourcePack": "./RP"
+	},
+	"worlds": [
+		"./worlds/*"
+	],
+	"compiler": {
+		"plugins": [
+			"generatorScripts",
+			"typeScript",
+			"entityIdentifierAlias",
+			"customEntityComponents",
+			"customItemComponents",
+			"customBlockComponents",
+			"customCommands",
+			"moLang",
+			"formatVersionCorrection",
+			[
+				"simpleRewrite",
+				{
+					"packName": "Vaperizor"
+				}
+			]
+		]
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "bridge:vaperizor",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/items/vaperizor"
+			},
+			"geometry": {
+				"default": "geometry.vaperizor"
+			},
+			"animations": {
+				"wield": "animation.vaperizor.firstpersonWield",
+				"use_item": "animation.vaperizor.firstpersonUse",
+				"stop_use_item": "animation.vaperizor.firstpersonStopUse"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"wield": "query.is_first_person"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.default"
+			]
+		}
+	}
+}

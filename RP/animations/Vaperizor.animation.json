@@ -1,0 +1,94 @@
+{
+	"format_version": "1.20.50",
+	"animations": {
+		"animation.vaperizor.firstpersonWield": {
+			"loop": true,
+			"bones": {
+				"bone": {
+					"rotation": [
+						23.58063,
+						56.57139,
+						4.26696
+					],
+					"position": [
+						0,
+						11,
+						-4
+					]
+				}
+			}
+		},
+		"animation.vaperizor.firstpersonUse": {
+			"animation_length": 10,
+			"bones": {
+				"bone": {
+					"rotation": {
+						"0.0": [
+							23.58063,
+							56.57139,
+							4.26696
+						],
+						"0.4583": [
+							-52.22,
+							49.71,
+							-56.98
+						]
+					},
+					"position": {
+						"0.0": [
+							0,
+							11,
+							-4
+						],
+						"0.4583": [
+							-5,
+							16,
+							-21
+						]
+					},
+					"scale": [
+						1,
+						1,
+						1
+					]
+				}
+			}
+		},
+		"animation.vaperizor.firstpersonStopUse": {
+			"animation_length": 0.95833,
+			"bones": {
+				"bone": {
+					"rotation": {
+						"0.0": [
+							-52.22,
+							49.71,
+							-56.98
+						],
+						"0.9167": [
+							23.58063,
+							56.57139,
+							4.26696
+						]
+					},
+					"position": {
+						"0.0": [
+							-5,
+							16,
+							-21
+						],
+						"0.9167": [
+							0,
+							11,
+							-4
+						]
+					},
+					"scale": [
+						1,
+						1,
+						1
+					]
+				}
+			}
+		}
+	}
+}
